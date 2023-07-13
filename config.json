@@ -1,0 +1,54 @@
+{
+    "DISCORD_SERVER_ID": "",
+    "STEAM_API_KEY": "",
+
+    "GLOBAL_POP_BOT": {
+        "ENABLED": false,
+        "BOT_TOKEN": "",
+        "MULTI_MESSAGE": {
+            "ENABLED": true,
+            "PLAYER_COUNT_MESSAGE": "({playersOnline}/{maxPlayers}) Online!..",
+            "PLAYERS_JOINING_MESSAGE": "({playersOnline}/{maxPlayers}) ⇋ ({joiningPlayers} Joining!)",
+            "PLAYERS_QUEUED_MESSAGE": "({playersOnline}/{maxPlayers}) ⇋ ({queuedPlayers} Queued!)"
+        },
+        "SINGLE_MESSAGE": {
+            "PLAYER_COUNT_MESSAGE": "({OnlineJoiningQueued}/{maxPlayers}) Online!"
+        }
+    },
+
+    "PLAYER_PROFILER": {
+        "ENABLED": false,
+        "BOT_TOKEN": "",
+    
+        "GLOBAL_LEADERBOARD": {
+            "ENABLED": false,
+            "CHANNEL_ID": ""
+        },
+
+        "PROFILE_VIEW": {
+            "ENABLED": false,
+            "REQUIRE_ROLES": true,
+            "REQUIRED_ROLES": [ "ROLE_ID", "ROLE_ID" ]
+        },
+
+        "STATS_COMMAND": {
+            "ENABLED": false,
+            "REQUIRE_ROLES": false,
+            "REQUIRED_ROLES": [ "ROLE_ID", "ROLE_ID" ]
+        },
+
+        "WATCHLIST": {
+            "ENABLED": false,
+            "REQUIRE_ROLES": true,
+            "REQUIRED_ROLES": [ "ROLE_ID", "ROLE_ID" ],
+            "ALERT_ROLES": ["ROLE_ID", "ROLE_ID"],
+            "ALERT_WEBHOOK": ""
+        },
+
+        "F7_PLAYER_SETTINGS": {
+            "ENABLED": false,
+            "REQUIRE_ROLES": true,
+            "REQUIRED_ROLES": [ "ROLE_ID", "ROLE_ID" ]
+        }
+    }
+}
